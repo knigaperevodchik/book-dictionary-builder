@@ -106,6 +106,12 @@ fb2 / epub / txt
       ↓
   StarDict (.ifo / .idx / .dict)
 ```
+## 💰 Support the project
+
+If this tool saved you time, you can say thanks:
+
+- TON / USDT (TON): `UQBwkwf2MgakNi4Ls2I6Nns1okcDyCxivdxxc22ypsMv4590`
+- USDT (TRC20): `TDdok5FgB6fJsxzrPzxnn7hMk4qReuzpje`
 
 ---
 
@@ -215,6 +221,12 @@ fb2 / epub / txt
       ↓
   StarDict (.ifo / .idx / .dict)
 ```
+## 💰 Поддержать проект
+
+Если инструмент сэкономил время — можно сказать спасибо:
+
+- TON / USDT (TON): `UQBwkwf2MgakNi4Ls2I6Nns1okcDyCxivdxxc22ypsMv4590`
+- USDT (TRC20): `TDdok5FgB6fJsxzrPzxnn7hMk4qReuzpje`
 
 ---
 
@@ -320,3 +332,9 @@ fb2 / epub / txt
       ↓
   StarDict (.ifo / .idx / .dict)
 ```
+## 💰 支持项目
+
+如果这个工具节省了您的时间，欢迎打赏：
+
+- TON / USDT (TON): `UQBwkwf2MgakNi4Ls2I6Nns1okcDyCxivdxxc22ypsMv4590`
+- USDT (TRC20): `TDdok5FgB6fJsxzrPzxnn7hMk4qReuzpje`
