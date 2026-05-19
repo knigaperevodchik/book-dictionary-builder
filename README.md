@@ -1,3 +1,5 @@
+[![Boosty](https://img.shields.io/badge/Boosty-поддержать-f15f2c?style=for-the-badge)](https://boosty.to/knigaperevodchik)
+
 # 📚 Book Dictionary Builder
 
 🇷🇺 [Русский](#-русский) | 🇬🇧 [English](#-english) | 🇨🇳 [中文](#-中文)
