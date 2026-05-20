@@ -1,3 +1,4 @@
+```markdown
 # 📚 Book Dictionary Builder
 
 🇺🇸 [English](#-english) | [🇷🇺 Русский](#-русский) | [🇨🇳 中文](#-中文)
@@ -5,14 +6,26 @@
 ---
 
 [Русский](#-поддержать-проект-ru) • [English](#-support-the-project-en) • [简体中文](#-支持此项目-zh)
----
 
+---
 
 ## 💰 Поддержать проект [RU]
 
-[![Boosty](https://img.shields.io/badge/Boosty-ПОДДЕРЖАТЬ-f15f2c?style=for-the-badge)](https://boosty.to/knigaperevodchik)
-[![TON](https://img.shields.io/badge/TON-USDT-0088cc?style=for-the-badge)](https://ton.org)
-[![TRC20](https://img.shields.io/badge/TRC-USDT-26A17B?style=for-the-badge)]()
+[
+
+![Boosty](https://img.shields.io/badge/Boosty-ПОДДЕРЖАТЬ-f15f2c?style=for-the-badge)
+
+](https://boosty.to/knigaperevodchik)
+[
+
+![TON](https://img.shields.io/badge/TON-USDT-0088cc?style=for-the-badge)
+
+](https://ton.org)
+[
+
+![TRC20](https://img.shields.io/badge/TRC-USDT-26A17B?style=for-the-badge)
+
+](https://tronscan.org)
 
 Если этот проект сэкономил ваше время или помог в работе, вы можете поддержать его развитие:
 
@@ -26,9 +39,21 @@
 
 ## 💰 Support the Project [EN]
 
-[![Boosty](https://img.shields.io/badge/Boosty-DONATE-f15f2c?style=for-the-badge)](https://boosty.to/knigaperevodchik)
-[![TON](https://img.shields.io/badge/TON-USDT-0088cc?style=for-the-badge)](https://ton.org)
-[![TRC20](https://img.shields.io/badge/TRC-USDT-26A17B?style=for-the-badge)]()
+[
+
+![Boosty](https://img.shields.io/badge/Boosty-DONATE-f15f2c?style=for-the-badge)
+
+](https://boosty.to/knigaperevodchik)
+[
+
+![TON](https://img.shields.io/badge/TON-USDT-0088cc?style=for-the-badge)
+
+](https://ton.org)
+[
+
+![TRC20](https://img.shields.io/badge/TRC-USDT-26A17B?style=for-the-badge)
+
+](https://tronscan.org)
 
 If this project has saved your time or helped you, feel free to support its development:
 
@@ -42,18 +67,29 @@ If this project has saved your time or helped you, feel free to support its deve
 
 ## 💰 支持此项目 [ZH]
 
-[![Boosty](https://img.shields.io/badge/Boosty-赞助-f15f2c?style=for-the-badge)](https://boosty.to/knigaperevodchik)
-[![TON](https://img.shields.io/badge/TON-USDT-0088cc?style=for-the-badge)](https://ton.org)
-[![TRC20](https://img.shields.io/badge/TRC-USDT-26A17B?style=for-the-badge)]()
+[
 
-如果这个项目对您有所帮助，欢迎赞助以支持项目的持续 white-hat 维护与更新：
+![Boosty](https://img.shields.io/badge/Boosty-赞助-f15f2c?style=for-the-badge)
+
+](https://boosty.to/knigaperevodchik)
+[
+
+![TON](https://img.shields.io/badge/TON-USDT-0088cc?style=for-the-badge)
+
+](https://ton.org)
+[
+
+![TRC20](https://img.shields.io/badge/TRC-USDT-26A17B?style=for-the-badge)
+
+](https://tronscan.org)
+
+如果这个项目对您有所帮助，欢迎赞助以支持项目的持续维护与更新：
 
 | 平台 / 网络 | 链接 / 钱包地址 |
 | :--- | :--- |
 | **Boosty** (法币/银行卡) | [https://boosty.to/knigaperevodchik](https://boosty.to/knigaperevodchik) |
 | **TON** (USDT) | `UQBWKwf2mgakNi4Ls2I6NNs1okcDyCxivdxxc22ypsMV4590` |
 | **TRC20** (USDT) | `TDdok5FgB6fJSXZrPzxnn7hMk4qREUZPJe` |
-
 
 ---
 
@@ -68,6 +104,7 @@ If this project has saved your time or helped you, feel free to support its deve
 Берёте книгу в формате fb2, epub или txt — на выходе получаете словарь именно из слов этой книги, с определениями из Викисловаря, в формате StarDict. Открывается в GoldenDict, Lingvo и других программах.
 
 На реальной книге (~123 000 слов):
+
 - Уникальных лемм: **10 226**
 - Найдено определений: **~10 046**
 - Время работы: ~5–10 минут
@@ -83,7 +120,8 @@ If this project has saved your time or helped you, feel free to support its deve
 
 ### Установка
 
-```bash
+```
+
 pip install lxml pymorphy3 requests
 ```
 
@@ -101,7 +139,7 @@ pip install lxml pymorphy3 requests
 
 **Шаг 1 — Собрать слова из книги**
 
-```bash
+```
 python build_vocab.py books/ --min-count 1
 ```
 
@@ -109,7 +147,7 @@ python build_vocab.py books/ --min-count 1
 
 **Шаг 2 — Собрать толковый словарь**
 
-```bash
+```
 python make_dict.py vocab.tsv
 ```
 
@@ -127,16 +165,17 @@ my_dictionary.dict
 
 ### Сделать словарь морфологическим
 
-Готовый словарь из книги можно прогнать через **[morph-dict-converter](https://github.com/knigaperevodchik/morph-dict-converter)** — тогда поиск будет работать по любой форме слова, не только по начальной.
+Готовый словарь можно прогнать через **[morph-dict-converter](https://github.com/knigaperevodchik/morph-dict-converter)** — тогда поиск будет работать по любой форме слова.
 
-```bash
+```
+
 python morph_dict_convert.py my_dictionary.ifo
 ```
 
 ### Опции build_vocab.py
 
 | Опция | По умолчанию | Описание |
-|-------|-------------|----------|
+| :--- | :--- | :--- |
 | `--min-count` | 3 | Минимальная частота слова |
 | `--top` | все | Оставить только N самых частых |
 | `--format` | tsv | Формат: `txt`, `tsv`, `hunspell` |
@@ -161,6 +200,7 @@ Two scripts that automatically build a dictionary from any **Russian-language** 
 Give it a book in fb2, epub, or txt format — you get a dictionary of exactly the words used in that book, with definitions from Wiktionary, in StarDict format. Opens in GoldenDict, Lingvo, and other programs.
 
 Results on a real book (~123,000 words):
+
 - Unique lemmas: **10,226**
 - Definitions found: **~10,046**
 - Processing time: ~5–10 minutes
@@ -176,7 +216,8 @@ Results on a real book (~123,000 words):
 
 ### Installation
 
-```bash
+```
+
 pip install lxml pymorphy3 requests
 ```
 
@@ -194,7 +235,7 @@ project/
 
 **Step 1 — Extract words from the book**
 
-```bash
+```
 python build_vocab.py books/ --min-count 1
 ```
 
@@ -202,7 +243,7 @@ Creates `vocab.tsv` — all unique words with frequencies. Words are lemmatized:
 
 **Step 2 — Build the dictionary**
 
-```bash
+```
 python make_dict.py vocab.tsv
 ```
 
@@ -222,14 +263,15 @@ Edit → Dictionaries → Files → Add folder → select the project folder →
 
 The output dictionary can be processed with **[morph-dict-converter](https://github.com/knigaperevodchik/morph-dict-converter)** — so search works by any word form, not just the base form.
 
-```bash
+```
+
 python morph_dict_convert.py my_dictionary.ifo
 ```
 
 ### Options for build_vocab.py
 
 | Option | Default | Description |
-|--------|---------|-------------|
+| :--- | :--- | :--- |
 | `--min-count` | 3 | Minimum word frequency |
 | `--top` | all | Keep only N most frequent words |
 | `--format` | tsv | Output format: `txt`, `tsv`, `hunspell` |
@@ -254,6 +296,7 @@ python morph_dict_convert.py my_dictionary.ifo
 输入 fb2、epub 或 txt 格式的书籍，输出该书专属词典，包含来自维基词典的释义，格式为 StarDict。可在 GoldenDict、Lingvo 等程序中打开。
 
 实际测试（约 123,000 词的书籍）：
+
 - 唯一词元数：**10,226**
 - 找到释义数：**~10,046**
 - 处理时间：约 5–10 分钟
@@ -269,7 +312,8 @@ python morph_dict_convert.py my_dictionary.ifo
 
 ### 安装依赖
 
-```bash
+```
+
 pip install lxml pymorphy3 requests
 ```
 
@@ -287,7 +331,7 @@ project/
 
 **第一步 — 从书籍提取词汇**
 
-```bash
+```
 python build_vocab.py books/ --min-count 1
 ```
 
@@ -295,7 +339,7 @@ python build_vocab.py books/ --min-count 1
 
 **第二步 — 生成词典**
 
-```bash
+```
 python make_dict.py vocab.tsv
 ```
 
@@ -315,35 +359,22 @@ my_dictionary.dict
 
 生成的词典可通过 **[morph-dict-converter](https://github.com/knigaperevodchik/morph-dict-converter)** 进行处理——使搜索支持任意词形，而不仅仅是原形。
 
-```bash
+```
 python morph_dict_convert.py my_dictionary.ifo
 ```
 
 ### build_vocab.py 选项
 
 | 选项 | 默认值 | 说明 |
-|------|--------|------|
+| :--- | :--- | :--- |
 | `--min-count` | 3 | 最低词频 |
 | `--top` | 全部 | 仅保留前 N 个高频词 |
 | `--format` | tsv | 输出格式：`txt`、`tsv`、`hunspell` |
-| `--no-lemma` | 关闭 | 跳过词形还原（速度更快）|
+| `--no-lemma` | 关闭 | 跳过词形还原（速度更快） |
 
 ### 常见问题
 
 **终端窗口立即关闭** — 请通过 cmd 运行，不要双击脚本。在资源管理器中打开项目文件夹，点击地址栏，输入 `cmd`，按 Enter。
 
 **词典中找不到某个词** — 脚本完成后会生成 `missing_words.txt`，包含所有未找到的词。通常是专有名词或维基词典中没有收录的罕见词汇。
-
----
-
-## 💙 Donate / Донат / 捐赠
-
-**TON (USDT)**
-```
-UQBWKwf2mgakNi4Ls2I6NNs1okcDyCxivdxxc22ypsMV4590
-```
-
-**TRC-20 (USDT)**
-```
-TDdok5FgB6fJSXZrPzxnn7hMk4qREUZPJe
 ```
