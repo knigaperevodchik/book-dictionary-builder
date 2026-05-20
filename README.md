@@ -1,4 +1,3 @@
-```markdown
 # 📚 Book Dictionary Builder
 
 🇺🇸 [English](#-english) | [🇷🇺 Русский](#-русский) | [🇨🇳 中文](#-中文)
@@ -6,26 +5,14 @@
 ---
 
 [Русский](#-поддержать-проект-ru) • [English](#-support-the-project-en) • [简体中文](#-支持此项目-zh)
-
 ---
+
 
 ## 💰 Поддержать проект [RU]
 
-[
-
-![Boosty](https://img.shields.io/badge/Boosty-ПОДДЕРЖАТЬ-f15f2c?style=for-the-badge)
-
-](https://boosty.to/knigaperevodchik)
-[
-
-![TON](https://img.shields.io/badge/TON-USDT-0088cc?style=for-the-badge)
-
-](https://ton.org)
-[
-
-![TRC20](https://img.shields.io/badge/TRC-USDT-26A17B?style=for-the-badge)
-
-](https://tronscan.org)
+[![Boosty](https://img.shields.io/badge/Boosty-ПОДДЕРЖАТЬ-f15f2c?style=for-the-badge)](https://boosty.to/knigaperevodchik)
+[![TON](https://img.shields.io/badge/TON-USDT-0088cc?style=for-the-badge)](https://ton.org)
+[![TRC20](https://img.shields.io/badge/TRC-USDT-26A17B?style=for-the-badge)]()
 
 Если этот проект сэкономил ваше время или помог в работе, вы можете поддержать его развитие:
 
@@ -39,21 +26,9 @@
 
 ## 💰 Support the Project [EN]
 
-[
-
-![Boosty](https://img.shields.io/badge/Boosty-DONATE-f15f2c?style=for-the-badge)
-
-](https://boosty.to/knigaperevodchik)
-[
-
-![TON](https://img.shields.io/badge/TON-USDT-0088cc?style=for-the-badge)
-
-](https://ton.org)
-[
-
-![TRC20](https://img.shields.io/badge/TRC-USDT-26A17B?style=for-the-badge)
-
-](https://tronscan.org)
+[![Boosty](https://img.shields.io/badge/Boosty-DONATE-f15f2c?style=for-the-badge)](https://boosty.to/knigaperevodchik)
+[![TON](https://img.shields.io/badge/TON-USDT-0088cc?style=for-the-badge)](https://ton.org)
+[![TRC20](https://img.shields.io/badge/TRC-USDT-26A17B?style=for-the-badge)]()
 
 If this project has saved your time or helped you, feel free to support its development:
 
@@ -67,29 +42,20 @@ If this project has saved your time or helped you, feel free to support its deve
 
 ## 💰 支持此项目 [ZH]
 
-[
+[![Boosty](https://img.shields.io/badge/Boosty-赞助-f15f2c?style=for-the-badge)](https://boosty.to/knigaperevodchik)
+[![TON](https://img.shields.io/badge/TON-USDT-0088cc?style=for-the-badge)](https://ton.org)
+[![TRC20](https://img.shields.io/badge/TRC-USDT-26A17B?style=for-the-badge)]()
 
-![Boosty](https://img.shields.io/badge/Boosty-赞助-f15f2c?style=for-the-badge)
-
-](https://boosty.to/knigaperevodchik)
-[
-
-![TON](https://img.shields.io/badge/TON-USDT-0088cc?style=for-the-badge)
-
-](https://ton.org)
-[
-
-![TRC20](https://img.shields.io/badge/TRC-USDT-26A17B?style=for-the-badge)
-
-](https://tronscan.org)
-
-如果这个项目对您有所帮助，欢迎赞助以支持项目的持续维护与更新：
+如果这个项目对您有所帮助，欢迎赞助以支持项目的持续 white-hat 维护与更新：
 
 | 平台 / 网络 | 链接 / 钱包地址 |
 | :--- | :--- |
 | **Boosty** (法币/银行卡) | [https://boosty.to/knigaperevodchik](https://boosty.to/knigaperevodchik) |
 | **TON** (USDT) | `UQBWKwf2mgakNi4Ls2I6NNs1okcDyCxivdxxc22ypsMV4590` |
 | **TRC20** (USDT) | `TDdok5FgB6fJSXZrPzxnn7hMk4qREUZPJe` |
+---
+
+[Русский](#-поддержать-проект-ru) • [English](#-support-the-project-en) • [简体中文](#-支持此项目-zh)
 
 ---
 
@@ -121,7 +87,6 @@ If this project has saved your time or helped you, feel free to support its deve
 ### Установка
 
 ```
-
 pip install lxml pymorphy3 requests
 ```
 
@@ -168,7 +133,6 @@ my_dictionary.dict
 Готовый словарь можно прогнать через **[morph-dict-converter](https://github.com/knigaperevodchik/morph-dict-converter)** — тогда поиск будет работать по любой форме слова.
 
 ```
-
 python morph_dict_convert.py my_dictionary.ifo
 ```
 
@@ -217,7 +181,6 @@ Results on a real book (~123,000 words):
 ### Installation
 
 ```
-
 pip install lxml pymorphy3 requests
 ```
 
@@ -264,7 +227,6 @@ Edit → Dictionaries → Files → Add folder → select the project folder →
 The output dictionary can be processed with **[morph-dict-converter](https://github.com/knigaperevodchik/morph-dict-converter)** — so search works by any word form, not just the base form.
 
 ```
-
 python morph_dict_convert.py my_dictionary.ifo
 ```
 
@@ -313,7 +275,6 @@ python morph_dict_convert.py my_dictionary.ifo
 ### 安装依赖
 
 ```
-
 pip install lxml pymorphy3 requests
 ```
 
@@ -377,4 +338,3 @@ python morph_dict_convert.py my_dictionary.ifo
 **终端窗口立即关闭** — 请通过 cmd 运行，不要双击脚本。在资源管理器中打开项目文件夹，点击地址栏，输入 `cmd`，按 Enter。
 
 **词典中找不到某个词** — 脚本完成后会生成 `missing_words.txt`，包含所有未找到的词。通常是专有名词或维基词典中没有收录的罕见词汇。
-```
