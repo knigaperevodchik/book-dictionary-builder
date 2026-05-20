@@ -1,5 +1,5 @@
 # 📚 Book Dictionary Builder
-🇷🇺 [Русский] | 🇬🇧 [English] | 🇨🇳 [中文]
+🇷🇺 [Русский] | 🇬🇧 [English] | [🇨🇳 中文](#-中文)
 
 <!-- Языковой навигатор / Language Navigation -->
 <p align="center">
