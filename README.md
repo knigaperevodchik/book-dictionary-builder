@@ -1,4 +1,4 @@
-# 📚 Gemini Book Translator
+# 📚 Book Dictionary Builder
 🇷🇺 [Русский](#-русский) | 🇬🇧 [English](#-english) | 🇨🇳 [中文](#-中文)
 
 <!-- Языковой навигатор / Language Navigation -->
