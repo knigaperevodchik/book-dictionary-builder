@@ -4,6 +4,9 @@
 
 ---
 
+[Русский](#-поддержать-проект-ru) • [English](#-support-the-project-en) • [简体中文](#-支持此项目-zh)
+---
+
 <!-- Языковой навигатор / Language Navigation -->
 <p align="center">
   <a href="#-поддержать-проект-ru">Русский</a> • 
